@@ -1,0 +1,9 @@
+ curl -X POST http://localhost:8080/user \
+     -H "Content-Type: application/json" \
+     -d '{
+           "name": "John Doe",
+           "ssn_no": "123-45-6789",
+           "country": "USA",
+           "age": 30,
+           "address": "123 Elm Street, Springfield"
+         }'
